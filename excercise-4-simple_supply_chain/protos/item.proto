@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+message Item {
+    message Owner {
+        string public_key = 1;
+        uint64 timestamp = 2;
+    }
+    message Location {
+        uint64 latitude = 1;
+        uint64 longitude = 2;
+        uint64 timestamp = 3;
+    }
+
+    string item_id = 1;
+    repeated Location locations = 2;
+    repeated Owner owners = 3;
+}
+
+message ItemContainer {
+    repeated Item entries = 1;
+}

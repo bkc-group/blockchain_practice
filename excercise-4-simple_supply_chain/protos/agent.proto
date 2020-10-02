@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message Agent {
+    string public_key = 1;
+    string name = 2;
+    string role = 3;
+    uint64 timestamp = 4;
+}
+
+message AgentContainer {
+    repeated Agent entries = 1;
+}

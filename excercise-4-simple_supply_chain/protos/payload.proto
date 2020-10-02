@@ -1,0 +1,41 @@
+syntax = "proto3";
+
+message SupplyPayload {
+    enum Action {
+        CREATE_AGENT = 0;
+        CREATE_ITEM = 1;
+        UPDATE_ITEM = 2;
+        TRANFER_ITEM = 3;
+    }
+
+    Action action = 1;
+
+    CreateAgentAction create_agent = 2;
+    CreateItemAction create_item = 3;
+    UpdateItemAction update_item = 4;
+    TranferItemAction tranfer_item = 5;
+
+    uint64 timestamp = 6;
+}
+
+message CreateAgentAction {
+    string name = 1;
+    string role = 2;
+}
+
+message CreateItemAction {
+    string item_id = 1;
+    uint64 latitude = 2;
+    uint64 longitude = 3;
+}
+
+message UpdateItemAction {
+    string item_id = 1;
+    uint64 latitude = 2;
+    uint64 longitude = 3;
+}
+
+message TranferItemAction {
+    string item_id = 1;
+    string received_agent = 2;
+}

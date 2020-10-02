@@ -1,0 +1,1294 @@
+2020-09-17 03:46:47 INFO-Connecting to tcp://validator:4004
+2020-09-17 03:50:03 INFO-192.168.48.1 [17/Sep/2020:03:50:03 +0000] "POST /v1/signup HTTP/1.1" 200 444 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-17 03:53:14 INFO-=== Start rest api ===
+2020-09-17 03:53:14 INFO-Connecting to tcp://validator:4004
+2020-09-17 04:01:36 INFO-Connecting to tcp://validator:4004
+2020-09-17 04:04:40 INFO-Connecting to tcp://validator:4004
+2020-09-17 04:04:45 ERROR-Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/aiohttp/web_protocol.py", line 376, in start
+    resp = await self._request_handler(request)
+  File "/usr/lib/python3/dist-packages/aiohttp/web_app.py", line 310, in _handle
+    resp = await handler(request)
+  File "/project/sawtooth-supply/rest_api/router_handler.py", line 32, in create_user
+    timestamp=get_time()
+  File "/project/sawtooth-supply/rest_api/messaging.py", line 41, in send_create_agent_transaction
+    fprint('=== send create agent transaction ===')
+NameError: name 'fprint' is not defined
+2020-09-17 04:04:45 INFO-192.168.48.1 [17/Sep/2020:04:04:45 +0000] "POST /v1/signup HTTP/1.1" 500 330 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-17 04:05:04 INFO-Connecting to tcp://validator:4004
+2020-09-17 04:05:07 INFO-192.168.48.1 [17/Sep/2020:04:05:07 +0000] "POST /v1/signup HTTP/1.1" 200 444 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-17 04:06:36 INFO-Connecting to tcp://validator:4004
+2020-09-17 04:07:01 INFO-Connecting to tcp://validator:4004
+2020-09-17 04:07:04 INFO-192.168.48.1 [17/Sep/2020:04:07:04 +0000] "POST /v1/signup HTTP/1.1" 200 444 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-17 04:07:41 INFO-Connecting to tcp://validator:4004
+2020-09-17 04:07:47 INFO-192.168.48.1 [17/Sep/2020:04:07:47 +0000] "POST /v1/signup HTTP/1.1" 200 444 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-17 04:07:55 INFO-192.168.48.1 [17/Sep/2020:04:07:55 +0000] "POST /v1/signup HTTP/1.1" 200 444 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-17 04:08:17 INFO-192.168.48.1 [17/Sep/2020:04:08:17 +0000] "POST /v1/signup HTTP/1.1" 200 444 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-17 04:12:09 INFO-Connecting to tcp://validator:4004
+2020-09-17 04:12:55 INFO-Connecting to tcp://validator:4004
+2020-09-17 07:18:39 INFO-Connecting to tcp://validator:4004
+2020-09-17 07:18:43 INFO-192.168.48.1 [17/Sep/2020:07:18:43 +0000] "POST /v1/signup HTTP/1.1" 200 444 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-17 07:57:48 INFO-Connecting to tcp://validator:4004
+2020-09-17 08:00:21 INFO-Connecting to tcp://validator:4004
+2020-09-17 08:00:38 ERROR-Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/aiohttp/web_protocol.py", line 376, in start
+    resp = await self._request_handler(request)
+  File "/usr/lib/python3/dist-packages/aiohttp/web_app.py", line 310, in _handle
+    resp = await handler(request)
+  File "/project/sawtooth-supply/rest_api/router_handler.py", line 47, in create_document
+    private_key=private_key,
+NameError: name 'private_key' is not defined
+2020-09-17 08:00:38 INFO-192.168.48.1 [17/Sep/2020:08:00:38 +0000] "POST /v1/createDocument HTTP/1.1" 500 330 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-17 08:01:51 INFO-Connecting to tcp://validator:4004
+2020-09-17 08:01:52 INFO-192.168.48.1 [17/Sep/2020:08:01:52 +0000] "POST /v1/createDocument HTTP/1.1" 400 304 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-17 08:02:47 INFO-Connecting to tcp://validator:4004
+2020-09-17 08:02:50 INFO-192.168.48.1 [17/Sep/2020:08:02:50 +0000] "POST /v1/createDocument HTTP/1.1" 400 306 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-17 08:35:31 INFO-Connecting to tcp://validator:4004
+2020-09-17 08:35:39 INFO-192.168.48.1 [17/Sep/2020:08:35:39 +0000] "POST /v1/signup HTTP/1.1" 200 444 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-17 08:37:24 INFO-Connecting to tcp://validator:4004
+2020-09-17 08:37:26 INFO-192.168.48.1 [17/Sep/2020:08:37:26 +0000] "POST /v1/createDocument HTTP/1.1" 400 306 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-17 08:37:35 INFO-192.168.48.1 [17/Sep/2020:08:37:35 +0000] "POST /v1/createDocument HTTP/1.1" 400 306 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-17 08:38:18 INFO-192.168.48.1 [17/Sep/2020:08:38:18 +0000] "POST /v1/createDocument HTTP/1.1" 400 306 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-17 08:38:39 INFO-192.168.48.1 [17/Sep/2020:08:38:39 +0000] "POST /v1/createDocument HTTP/1.1" 400 306 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-17 08:55:22 INFO-Connecting to tcp://validator:4004
+2020-09-17 08:55:24 INFO-192.168.48.1 [17/Sep/2020:08:55:24 +0000] "POST /v1/signup HTTP/1.1" 200 444 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-17 08:55:44 INFO-192.168.48.1 [17/Sep/2020:08:55:43 +0000] "POST /v1/createDocument HTTP/1.1" 400 306 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-17 08:57:06 INFO-Connecting to tcp://validator:4004
+2020-09-17 08:57:09 INFO-192.168.48.1 [17/Sep/2020:08:57:08 +0000] "POST /v1/createDocument HTTP/1.1" 400 306 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-17 08:58:03 INFO-Connecting to tcp://validator:4004
+2020-09-17 08:58:08 INFO-192.168.48.1 [17/Sep/2020:08:58:07 +0000] "POST /v1/createDocument HTTP/1.1" 400 306 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-17 08:59:06 INFO-Connecting to tcp://validator:4004
+2020-09-17 08:59:09 INFO-192.168.48.1 [17/Sep/2020:08:59:09 +0000] "POST /v1/createDocument HTTP/1.1" 400 306 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-17 08:59:43 INFO-Connecting to tcp://validator:4004
+2020-09-17 08:59:46 INFO-192.168.48.1 [17/Sep/2020:08:59:46 +0000] "POST /v1/createDocument HTTP/1.1" 400 306 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-17 09:01:07 INFO-Connecting to tcp://validator:4004
+2020-09-17 09:01:11 INFO-192.168.48.1 [17/Sep/2020:09:01:11 +0000] "POST /v1/createDocument HTTP/1.1" 400 306 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-17 09:02:57 INFO-Connecting to tcp://validator:4004
+2020-09-17 09:06:45 INFO-Connecting to tcp://validator:4004
+2020-09-17 09:07:49 INFO-Connecting to tcp://validator:4004
+2020-09-17 09:12:51 INFO-192.168.48.1 [17/Sep/2020:09:07:51 +0000] "POST /v1/createDocument HTTP/1.1" 500 244 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-18 03:17:21 INFO-Connecting to tcp://validator:4004
+2020-09-18 03:24:47 INFO-Connecting to tcp://validator:4004
+2020-09-18 03:25:06 INFO-Connecting to tcp://validator:4004
+2020-09-18 03:25:08 INFO-192.168.48.1 [18/Sep/2020:03:25:08 +0000] "POST /v1/createDocument HTTP/1.1" 400 306 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-18 03:26:08 INFO-Connecting to tcp://validator:4004
+2020-09-18 03:26:13 INFO-192.168.48.1 [18/Sep/2020:03:26:13 +0000] "POST /v1/createDocument HTTP/1.1" 400 306 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-18 03:26:30 INFO-Connecting to tcp://validator:4004
+2020-09-18 03:26:41 INFO-192.168.48.1 [18/Sep/2020:03:26:41 +0000] "POST /v1/createDocument HTTP/1.1" 400 306 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-18 03:28:09 INFO-Connecting to tcp://validator:4004
+2020-09-18 03:28:13 INFO-192.168.48.1 [18/Sep/2020:03:28:13 +0000] "POST /v1/createDocument HTTP/1.1" 400 306 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-18 03:29:06 INFO-Connecting to tcp://validator:4004
+2020-09-18 03:29:09 INFO-192.168.48.1 [18/Sep/2020:03:29:09 +0000] "POST /v1/createDocument HTTP/1.1" 400 306 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-18 03:29:55 INFO-Connecting to tcp://validator:4004
+2020-09-18 03:29:59 INFO-192.168.48.1 [18/Sep/2020:03:29:59 +0000] "POST /v1/createDocument HTTP/1.1" 400 306 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-18 03:30:19 INFO-Connecting to tcp://validator:4004
+2020-09-18 03:30:23 INFO-192.168.48.1 [18/Sep/2020:03:30:23 +0000] "POST /v1/createDocument HTTP/1.1" 400 306 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-18 03:31:56 INFO-Connecting to tcp://validator:4004
+2020-09-18 03:31:58 INFO-192.168.48.1 [18/Sep/2020:03:31:58 +0000] "POST /v1/createDocument HTTP/1.1" 400 306 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-18 03:36:22 INFO-Connecting to tcp://validator:4004
+2020-09-18 03:36:32 INFO-192.168.48.1 [18/Sep/2020:03:36:31 +0000] "POST /v1/createDocument HTTP/1.1" 200 206 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-18 03:43:43 INFO-Connecting to tcp://validator:4004
+2020-09-18 03:43:46 INFO-192.168.48.1 [18/Sep/2020:03:43:46 +0000] "POST /v1/createDocument HTTP/1.1" 400 245 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-18 03:43:51 INFO-192.168.48.1 [18/Sep/2020:03:43:51 +0000] "POST /v1/createDocument HTTP/1.1" 200 206 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-18 08:40:48 INFO-Connecting to tcp://validator:4004
+2020-09-18 08:41:31 ERROR-Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/aiohttp/web_protocol.py", line 376, in start
+    resp = await self._request_handler(request)
+  File "/usr/lib/python3/dist-packages/aiohttp/web_app.py", line 310, in _handle
+    resp = await handler(request)
+  File "/project/sawtooth-supply/rest_api/router_handler.py", line 77, in update_document
+    timestamp=get_time()
+  File "/project/sawtooth-supply/rest_api/messaging.py", line 74, in send_update_document_transaction
+    timestamp=timestamp
+  File "/project/sawtooth-supply/rest_api/transaction_creation.py", line 62, in make_update_document_transaction
+    document_address = address.get_document_address(document_id)
+NameError: name 'address' is not defined
+2020-09-18 08:41:31 INFO-192.168.48.1 [18/Sep/2020:08:41:31 +0000] "POST /v1/updateDocument HTTP/1.1" 500 330 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-18 08:41:49 INFO-Connecting to tcp://validator:4004
+2020-09-18 08:41:52 INFO-192.168.48.1 [18/Sep/2020:08:41:52 +0000] "POST /v1/updateDocument HTTP/1.1" 400 212 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-18 08:43:01 INFO-Connecting to tcp://validator:4004
+2020-09-18 08:43:03 INFO-192.168.48.1 [18/Sep/2020:08:43:03 +0000] "POST /v1/updateDocument HTTP/1.1" 400 230 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-18 08:43:40 INFO-Connecting to tcp://validator:4004
+2020-09-18 08:43:43 INFO-192.168.48.1 [18/Sep/2020:08:43:43 +0000] "POST /v1/updateDocument HTTP/1.1" 400 230 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-18 08:44:08 INFO-Connecting to tcp://validator:4004
+2020-09-18 08:44:11 INFO-192.168.48.1 [18/Sep/2020:08:44:11 +0000] "POST /v1/updateDocument HTTP/1.1" 400 230 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-18 08:45:44 INFO-Connecting to tcp://validator:4004
+2020-09-18 08:45:47 INFO-192.168.48.1 [18/Sep/2020:08:45:47 +0000] "POST /v1/updateDocument HTTP/1.1" 400 230 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-18 08:46:20 INFO-Connecting to tcp://validator:4004
+2020-09-18 08:46:25 INFO-192.168.48.1 [18/Sep/2020:08:46:25 +0000] "POST /v1/updateDocument HTTP/1.1" 400 230 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-18 08:46:55 INFO-Connecting to tcp://validator:4004
+2020-09-18 08:46:59 INFO-192.168.48.1 [18/Sep/2020:08:46:59 +0000] "POST /v1/updateDocument HTTP/1.1" 400 230 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-18 08:47:25 INFO-Connecting to tcp://validator:4004
+2020-09-18 08:47:28 INFO-192.168.48.1 [18/Sep/2020:08:47:28 +0000] "POST /v1/updateDocument HTTP/1.1" 400 230 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-18 08:51:50 INFO-Connecting to tcp://validator:4004
+2020-09-18 08:51:58 INFO-192.168.48.1 [18/Sep/2020:08:51:58 +0000] "POST /v1/updateDocument HTTP/1.1" 400 230 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-18 08:52:11 INFO-Connecting to tcp://validator:4004
+2020-09-18 08:52:13 INFO-192.168.48.1 [18/Sep/2020:08:52:13 +0000] "POST /v1/updateDocument HTTP/1.1" 400 230 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-18 08:52:39 INFO-Connecting to tcp://validator:4004
+2020-09-18 08:52:40 INFO-192.168.48.1 [18/Sep/2020:08:52:40 +0000] "POST /v1/updateDocument HTTP/1.1" 400 230 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-18 08:53:29 INFO-Connecting to tcp://validator:4004
+2020-09-18 08:53:32 INFO-192.168.48.1 [18/Sep/2020:08:53:32 +0000] "POST /v1/updateDocument HTTP/1.1" 400 230 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-18 08:54:59 INFO-Connecting to tcp://validator:4004
+2020-09-18 08:55:03 INFO-192.168.48.1 [18/Sep/2020:08:55:03 +0000] "POST /v1/updateDocument HTTP/1.1" 400 230 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-18 08:57:05 INFO-Connecting to tcp://validator:4004
+2020-09-18 08:57:08 ERROR-Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/aiohttp/web_protocol.py", line 376, in start
+    resp = await self._request_handler(request)
+  File "/usr/lib/python3/dist-packages/aiohttp/web_app.py", line 310, in _handle
+    resp = await handler(request)
+  File "/project/sawtooth-supply/rest_api/router_handler.py", line 77, in update_document
+    timestamp=get_time()
+  File "/project/sawtooth-supply/rest_api/messaging.py", line 74, in send_update_document_transaction
+    timestamp=timestamp
+  File "/project/sawtooth-supply/rest_api/transaction_creation.py", line 73, in make_update_document_transaction
+    fprint('=== payload in transaction creation ===')
+NameError: name 'fprint' is not defined
+2020-09-18 08:57:08 INFO-192.168.48.1 [18/Sep/2020:08:57:08 +0000] "POST /v1/updateDocument HTTP/1.1" 500 330 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-18 08:57:27 INFO-Connecting to tcp://validator:4004
+2020-09-18 08:57:29 ERROR-Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/aiohttp/web_protocol.py", line 376, in start
+    resp = await self._request_handler(request)
+  File "/usr/lib/python3/dist-packages/aiohttp/web_app.py", line 310, in _handle
+    resp = await handler(request)
+  File "/project/sawtooth-supply/rest_api/router_handler.py", line 77, in update_document
+    timestamp=get_time()
+  File "/project/sawtooth-supply/rest_api/messaging.py", line 74, in send_update_document_transaction
+    timestamp=timestamp
+  File "/project/sawtooth-supply/rest_api/transaction_creation.py", line 75, in make_update_document_transaction
+    fprint(payload.data)
+AttributeError: 'BBoxPayload' object has no attribute 'data'
+2020-09-18 08:57:29 INFO-192.168.48.1 [18/Sep/2020:08:57:29 +0000] "POST /v1/updateDocument HTTP/1.1" 500 330 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-18 08:57:39 INFO-Connecting to tcp://validator:4004
+2020-09-18 08:57:41 INFO-192.168.48.1 [18/Sep/2020:08:57:41 +0000] "POST /v1/updateDocument HTTP/1.1" 400 230 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-18 10:24:44 INFO-Connecting to tcp://validator:4004
+2020-09-18 10:24:48 INFO-192.168.48.1 [18/Sep/2020:10:24:48 +0000] "POST /v1/updateDocument HTTP/1.1" 400 249 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-18 10:26:40 INFO-Connecting to tcp://validator:4004
+2020-09-18 10:26:44 INFO-192.168.48.1 [18/Sep/2020:10:26:44 +0000] "POST /v1/createDocument HTTP/1.1" 200 206 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-18 10:26:58 INFO-192.168.48.1 [18/Sep/2020:10:26:58 +0000] "POST /v1/updateDocument HTTP/1.1" 400 247 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-18 10:28:22 INFO-Connecting to tcp://validator:4004
+2020-09-18 10:28:24 INFO-192.168.48.1 [18/Sep/2020:10:28:24 +0000] "POST /v1/updateDocument HTTP/1.1" 400 247 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-18 10:28:56 INFO-Connecting to tcp://validator:4004
+2020-09-18 10:29:29 INFO-Connecting to tcp://validator:4004
+2020-09-18 10:29:49 INFO-Connecting to tcp://validator:4004
+2020-09-18 10:30:49 INFO-Connecting to tcp://validator:4004
+2020-09-18 10:35:50 INFO-192.168.48.1 [18/Sep/2020:10:30:50 +0000] "POST /v1/updateDocument HTTP/1.1" 500 244 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-18 16:20:29 INFO-Connecting to tcp://validator:4004
+2020-09-18 16:20:56 INFO-Connecting to tcp://validator:4004
+2020-09-18 16:21:22 INFO-Connecting to tcp://validator:4004
+2020-09-18 16:23:21 INFO-Connecting to tcp://validator:4004
+2020-09-18 16:23:24 ERROR-Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/aiohttp/web_protocol.py", line 376, in start
+    resp = await self._request_handler(request)
+  File "/usr/lib/python3/dist-packages/aiohttp/web_app.py", line 317, in _handle
+    for app in match_info.apps
+AssertionError: Handler <bound method RouterHandler.update_document of <router_handler.RouterHandler object at 0x7f934459a5f8>> should return response instance, got <class 'NoneType'> [middlewares []]
+2020-09-18 16:23:24 INFO-192.168.48.1 [18/Sep/2020:16:23:23 +0000] "POST /v1/updateDocument HTTP/1.1" 500 330 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-18 16:24:36 INFO-Connecting to tcp://validator:4004
+2020-09-18 16:24:40 ERROR-Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/aiohttp/web_protocol.py", line 376, in start
+    resp = await self._request_handler(request)
+  File "/usr/lib/python3/dist-packages/aiohttp/web_app.py", line 317, in _handle
+    for app in match_info.apps
+AssertionError: Handler <bound method RouterHandler.update_document of <router_handler.RouterHandler object at 0x7fd83cb195f8>> should return response instance, got <class 'NoneType'> [middlewares []]
+2020-09-18 16:24:40 INFO-192.168.48.1 [18/Sep/2020:16:24:39 +0000] "POST /v1/updateDocument HTTP/1.1" 500 330 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-18 16:25:14 INFO-Connecting to tcp://validator:4004
+2020-09-18 16:25:37 INFO-Connecting to tcp://validator:4004
+2020-09-18 16:25:40 INFO-192.168.48.1 [18/Sep/2020:16:25:40 +0000] "POST /v1/updateDocument HTTP/1.1" 200 206 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-21 03:14:48 INFO-Connecting to tcp://validator:4004
+2020-09-21 03:14:57 INFO-192.168.48.1 [21/Sep/2020:03:14:56 +0000] "POST /v1/updateDocument HTTP/1.1" 200 206 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-21 03:17:16 INFO-Connecting to tcp://validator:4004
+2020-09-21 03:17:19 INFO-192.168.48.1 [21/Sep/2020:03:17:18 +0000] "POST /v1/updateDocument HTTP/1.1" 200 206 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-21 03:21:28 INFO-Connecting to tcp://validator:4004
+2020-09-21 03:21:34 INFO-192.168.48.1 [21/Sep/2020:03:21:34 +0000] "POST /v1/updateDocument HTTP/1.1" 200 206 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-21 03:25:11 INFO-Connecting to tcp://validator:4004
+2020-09-21 03:26:07 ERROR-Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/aiohttp/web_protocol.py", line 376, in start
+    resp = await self._request_handler(request)
+  File "/usr/lib/python3/dist-packages/aiohttp/web_app.py", line 310, in _handle
+    resp = await handler(request)
+  File "/project/sawtooth-supply/rest_api/router_handler.py", line 93, in share_document
+    timestamp=get_time()
+  File "/project/sawtooth-supply/rest_api/messaging.py", line 92, in send_share_document_transaction
+    timestamp=timestamp
+  File "/project/sawtooth-supply/rest_api/transaction_creation.py", line 95, in make_share_document_transaction
+    action = payload_pb2.ShareDocumentAction(document_id, shared_agent_address)
+TypeError: No positional arguments allowed
+2020-09-21 03:26:07 INFO-192.168.48.1 [21/Sep/2020:03:26:07 +0000] "POST /v1/shareDocument HTTP/1.1" 500 330 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-21 03:27:37 INFO-Connecting to tcp://validator:4004
+2020-09-21 03:28:34 INFO-Connecting to tcp://validator:4004
+2020-09-21 03:28:39 INFO-192.168.48.1 [21/Sep/2020:03:28:39 +0000] "POST /v1/shareDocument HTTP/1.1" 400 306 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-21 03:29:56 INFO-192.168.48.1 [21/Sep/2020:03:29:56 +0000] "POST /v1/createDocument HTTP/1.1" 400 247 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-21 03:30:08 INFO-192.168.48.1 [21/Sep/2020:03:30:07 +0000] "POST /v1/createDocument HTTP/1.1" 200 206 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-21 03:30:17 INFO-192.168.48.1 [21/Sep/2020:03:30:17 +0000] "POST /v1/shareDocument HTTP/1.1" 400 306 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-21 03:30:58 INFO-Connecting to tcp://validator:4004
+2020-09-21 03:31:04 INFO-192.168.48.1 [21/Sep/2020:03:31:04 +0000] "POST /v1/shareDocument HTTP/1.1" 400 306 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-21 03:32:01 INFO-Connecting to tcp://validator:4004
+2020-09-21 03:32:20 INFO-Connecting to tcp://validator:4004
+2020-09-21 03:33:13 INFO-Connecting to tcp://validator:4004
+2020-09-21 03:33:16 ERROR-Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/aiohttp/web_protocol.py", line 376, in start
+    resp = await self._request_handler(request)
+  File "/usr/lib/python3/dist-packages/aiohttp/web_app.py", line 317, in _handle
+    for app in match_info.apps
+AssertionError: Handler <bound method RouterHandler.share_document of <router_handler.RouterHandler object at 0x7f54e0dd3630>> should return response instance, got <class 'NoneType'> [middlewares []]
+2020-09-21 03:33:16 INFO-192.168.48.1 [21/Sep/2020:03:33:16 +0000] "POST /v1/shareDocument HTTP/1.1" 500 330 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-21 03:33:44 INFO-Connecting to tcp://validator:4004
+2020-09-21 03:33:46 INFO-192.168.48.1 [21/Sep/2020:03:33:46 +0000] "POST /v1/shareDocument HTTP/1.1" 200 205 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-21 03:40:03 INFO-Connecting to tcp://validator:4004
+2020-09-21 03:40:14 INFO-Connecting to tcp://validator:4004
+2020-09-21 03:40:31 INFO-Connecting to tcp://validator:4004
+2020-09-21 03:40:38 INFO-192.168.48.1 [21/Sep/2020:03:40:37 +0000] "POST /v1/shareDocument HTTP/1.1" 200 205 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+2020-09-29 04:32:21 INFO-Connecting to tcp://validator:4004
+2020-09-29 15:08:18 INFO-Connecting to tcp://validator:4004
+2020-09-29 15:09:04 ERROR-Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/aiohttp/web_protocol.py", line 376, in start
+    resp = await self._request_handler(request)
+  File "/usr/lib/python3/dist-packages/aiohttp/web_app.py", line 310, in _handle
+    resp = await handler(request)
+  File "/project/sawtooth-supply/rest_api/router_handler.py", line 33, in create_agent
+    timestamp=get_time()
+TypeError: send_create_agent_transaction() got an unexpected keyword argument 'role'
+2020-09-29 15:09:04 INFO-172.24.0.1 [29/Sep/2020:15:09:04 +0000] "POST /v1/signup HTTP/1.1" 500 330 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-09-29 15:09:34 INFO-Connecting to tcp://validator:4004
+2020-09-29 15:10:01 INFO-Connecting to tcp://validator:4004
+2020-09-29 15:10:27 INFO-Connecting to tcp://validator:4004
+2020-09-29 15:12:09 INFO-Connecting to tcp://validator:4004
+2020-09-29 15:12:12 INFO-172.24.0.1 [29/Sep/2020:15:12:12 +0000] "POST /v1/signup HTTP/1.1" 200 444 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-09-29 15:27:15 INFO-Connecting to tcp://validator:4004
+2020-09-29 15:27:20 ERROR-Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/aiohttp/web_protocol.py", line 376, in start
+    resp = await self._request_handler(request)
+  File "/usr/lib/python3/dist-packages/aiohttp/web_app.py", line 310, in _handle
+    resp = await handler(request)
+  File "/project/sawtooth-supply/rest_api/router_handler.py", line 53, in create_item
+    timestamp=get_time()
+  File "/project/sawtooth-supply/rest_api/messaging.py", line 62, in send_create_item_transaction
+    timestamp=timestamp
+  File "/project/sawtooth-supply/rest_api/transaction_creation.py", line 45, in make_create_item_transaction
+    action = payload_pb2.CreateItemAction(item_id=item_id, latitude=latitude, longitude=longitude)
+TypeError: '22' has type str, but expected one of: int, long
+2020-09-29 15:27:20 INFO-172.24.0.1 [29/Sep/2020:15:27:20 +0000] "POST /v1/createItem HTTP/1.1" 500 330 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-09-29 15:27:38 ERROR-Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/aiohttp/web_protocol.py", line 376, in start
+    resp = await self._request_handler(request)
+  File "/usr/lib/python3/dist-packages/aiohttp/web_app.py", line 310, in _handle
+    resp = await handler(request)
+  File "/project/sawtooth-supply/rest_api/router_handler.py", line 53, in create_item
+    timestamp=get_time()
+  File "/project/sawtooth-supply/rest_api/messaging.py", line 62, in send_create_item_transaction
+    timestamp=timestamp
+  File "/project/sawtooth-supply/rest_api/transaction_creation.py", line 49, in make_create_item_transaction
+    timestamp=timestamp
+ValueError: Protocol message SupplyPayload has no "create_document" field.
+2020-09-29 15:27:38 INFO-172.24.0.1 [29/Sep/2020:15:27:38 +0000] "POST /v1/createItem HTTP/1.1" 500 330 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-09-29 15:28:12 INFO-Connecting to tcp://validator:4004
+2020-09-29 15:29:42 INFO-Connecting to tcp://validator:4004
+2020-09-29 15:30:42 INFO-Connecting to tcp://validator:4004
+2020-09-29 15:31:29 INFO-Connecting to tcp://validator:4004
+2020-09-29 15:32:04 INFO-Connecting to tcp://validator:4004
+2020-09-29 15:33:37 INFO-Connecting to tcp://validator:4004
+2020-09-29 15:34:38 INFO-Connecting to tcp://validator:4004
+2020-09-29 15:34:42 INFO-172.24.0.1 [29/Sep/2020:15:34:42 +0000] "POST /v1/createItem HTTP/1.1" 400 304 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-09-29 15:35:48 INFO-Connecting to tcp://validator:4004
+2020-09-29 15:35:55 INFO-172.25.0.1 [29/Sep/2020:15:35:55 +0000] "POST /v1/signup HTTP/1.1" 200 444 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-09-29 15:36:49 INFO-Connecting to tcp://validator:4004
+2020-09-29 15:38:01 INFO-Connecting to tcp://validator:4004
+2020-09-29 15:38:04 INFO-172.25.0.1 [29/Sep/2020:15:38:04 +0000] "POST /v1/createItem HTTP/1.1" 200 206 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-09-29 15:46:40 INFO-Connecting to tcp://validator:4004
+2020-09-29 15:46:43 INFO-172.25.0.1 [29/Sep/2020:15:46:43 +0000] "POST /v1/createItem HTTP/1.1" 400 238 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-09-29 15:50:01 INFO-Connecting to tcp://validator:4004
+2020-09-29 15:50:51 INFO-Connecting to tcp://validator:4004
+2020-09-29 15:51:09 INFO-172.25.0.1 [29/Sep/2020:15:51:09 +0000] "POST /v1/updateItem HTTP/1.1" 200 202 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-09-29 16:15:33 INFO-Connecting to tcp://validator:4004
+2020-09-29 16:15:48 INFO-172.25.0.1 [29/Sep/2020:16:15:48 +0000] "POST /v1/signup HTTP/1.1" 200 444 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-09-29 16:17:33 INFO-172.25.0.1 [29/Sep/2020:16:17:33 +0000] "POST /v1/tranferItem HTTP/1.1" 200 203 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-09-29 16:23:16 INFO-Connecting to tcp://validator:4004
+2020-09-29 16:23:52 INFO-172.26.0.1 [29/Sep/2020:16:23:52 +0000] "POST /v1/signup HTTP/1.1" 200 444 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-09-29 16:24:21 INFO-172.26.0.1 [29/Sep/2020:16:24:21 +0000] "POST /v1/signup HTTP/1.1" 200 444 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-09-29 23:10:53 INFO-Connecting to tcp://validator:4004
+2020-09-29 23:16:09 INFO-Connecting to tcp://validator:4004
+2020-09-29 23:16:09 INFO-Connecting to database
+2020-09-29 23:16:09 DEBUG-Connection failed. Retrying connection (5 retries remaining)
+2020-09-29 23:16:10 DEBUG-Connection failed. Retrying connection (4 retries remaining)
+2020-09-29 23:16:12 INFO-SELECT t.oid, typarray FROM pg_type t JOIN pg_namespace ns ON typnamespace = ns.oid WHERE typname = 'hstore';
+2020-09-29 23:16:12 INFO-None
+2020-09-29 23:16:12 INFO-Successfully connected to database
+2020-09-29 23:19:01 INFO-Connecting to tcp://validator:4004
+2020-09-29 23:19:01 INFO-Connecting to database
+2020-09-29 23:19:01 INFO-SELECT t.oid, typarray FROM pg_type t JOIN pg_namespace ns ON typnamespace = ns.oid WHERE typname = 'hstore';
+2020-09-29 23:19:01 INFO-None
+2020-09-29 23:19:01 INFO-Successfully connected to database
+2020-09-29 23:19:14 INFO-
+        INSERT INTO auth (
+            public_key,
+            private_key,
+            name
+        )
+        VALUES ('02555629cd266c91679df1d84b944d7272b718a71ab2558d4946b6bd1b99df9daf', '58a22587b22914be2133a246307bb82b8d65c20d139df8742019fe02df8ed8b6', 'thangbk2209');
+        
+2020-09-29 23:19:14 INFO-None
+2020-09-29 23:19:14 ERROR-Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/aiohttp/web_protocol.py", line 376, in start
+    resp = await self._request_handler(request)
+  File "/usr/lib/python3/dist-packages/aiohttp/web_app.py", line 310, in _handle
+    resp = await handler(request)
+  File "/project/sawtooth-supply/rest_api/router_handler.py", line 30, in create_agent
+    public_key, private_key, name)
+  File "/project/sawtooth-supply/rest_api/database.py", line 78, in create_auth_entry
+    await cursor.execute(insert)
+  File "/usr/local/lib/python3.6/dist-packages/aiopg/cursor.py", line 113, in execute
+    await self._conn._poll(waiter, timeout)
+  File "/usr/local/lib/python3.6/dist-packages/aiopg/connection.py", line 207, in _poll
+    await asyncio.wait_for(self._waiter, timeout, loop=self._loop)
+  File "/usr/lib/python3.6/asyncio/tasks.py", line 358, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.6/dist-packages/aiopg/connection.py", line 106, in _ready
+    state = self._conn.poll()
+psycopg2.errors.UndefinedTable: relation "auth" does not exist
+LINE 2:         INSERT INTO auth (
+                            ^
+
+2020-09-29 23:19:14 INFO-172.26.0.1 [29/Sep/2020:23:19:14 +0000] "POST /v1/signup HTTP/1.1" 500 330 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-09-29 23:26:34 INFO-Connecting to tcp://validator:4004
+2020-09-29 23:26:34 INFO-Connecting to database
+2020-09-29 23:26:34 DEBUG-Connection failed. Retrying connection (5 retries remaining)
+2020-09-29 23:26:35 INFO-SELECT t.oid, typarray FROM pg_type t JOIN pg_namespace ns ON typnamespace = ns.oid WHERE typname = 'hstore';
+2020-09-29 23:26:35 INFO-None
+2020-09-29 23:26:35 INFO-Successfully connected to database
+2020-09-29 23:26:38 INFO-
+        INSERT INTO auth (
+            public_key,
+            private_key,
+            name
+        )
+        VALUES ('02be24b58b5758d53673f274f2ef110b6440da9c72d3a20fbc442695e59547a714', '54afa5dcdd9baddc93a200581b673847c3424c6a6c0bf8b87136ad37e974dda7', 'thangbk2209');
+        
+2020-09-29 23:26:38 INFO-None
+2020-09-29 23:26:38 ERROR-Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/aiohttp/web_protocol.py", line 376, in start
+    resp = await self._request_handler(request)
+  File "/usr/lib/python3/dist-packages/aiohttp/web_app.py", line 310, in _handle
+    resp = await handler(request)
+  File "/project/sawtooth-supply/rest_api/router_handler.py", line 30, in create_agent
+    public_key, private_key, name)
+  File "/project/sawtooth-supply/rest_api/database.py", line 78, in create_auth_entry
+    await cursor.execute(insert)
+  File "/usr/local/lib/python3.6/dist-packages/aiopg/cursor.py", line 113, in execute
+    await self._conn._poll(waiter, timeout)
+  File "/usr/local/lib/python3.6/dist-packages/aiopg/connection.py", line 207, in _poll
+    await asyncio.wait_for(self._waiter, timeout, loop=self._loop)
+  File "/usr/lib/python3.6/asyncio/tasks.py", line 358, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.6/dist-packages/aiopg/connection.py", line 106, in _ready
+    state = self._conn.poll()
+psycopg2.errors.UndefinedTable: relation "auth" does not exist
+LINE 2:         INSERT INTO auth (
+                            ^
+
+2020-09-29 23:26:38 INFO-172.27.0.1 [29/Sep/2020:23:26:38 +0000] "POST /v1/signup HTTP/1.1" 500 330 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-09-29 23:33:58 INFO-Connecting to tcp://validator:4004
+2020-09-29 23:33:58 INFO-Connecting to database
+2020-09-29 23:33:58 INFO-SELECT t.oid, typarray FROM pg_type t JOIN pg_namespace ns ON typnamespace = ns.oid WHERE typname = 'hstore';
+2020-09-29 23:33:58 INFO-None
+2020-09-29 23:33:58 INFO-Successfully connected to database
+2020-09-29 23:34:03 INFO-
+        INSERT INTO auth (
+            public_key,
+            private_key,
+            name
+        )
+        VALUES ('0397856b522b2dd986de325edc56505f4a93f7b03255090e3b5cd2bb93f36b2e2e', '64eb0a142b74c33d81804ce873a9a1c2f547b9d3c5f84314202c0d23d33e3abc', 'thangbk2209');
+        
+2020-09-29 23:34:03 INFO-None
+2020-09-29 23:34:03 ERROR-Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/aiohttp/web_protocol.py", line 376, in start
+    resp = await self._request_handler(request)
+  File "/usr/lib/python3/dist-packages/aiohttp/web_app.py", line 310, in _handle
+    resp = await handler(request)
+  File "/project/sawtooth-supply/rest_api/router_handler.py", line 30, in create_agent
+    public_key, private_key, name)
+  File "/project/sawtooth-supply/rest_api/database.py", line 166, in create_auth_entry
+    await cursor.execute(insert)
+  File "/usr/local/lib/python3.6/dist-packages/aiopg/cursor.py", line 113, in execute
+    await self._conn._poll(waiter, timeout)
+  File "/usr/local/lib/python3.6/dist-packages/aiopg/connection.py", line 207, in _poll
+    await asyncio.wait_for(self._waiter, timeout, loop=self._loop)
+  File "/usr/lib/python3.6/asyncio/tasks.py", line 358, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.6/dist-packages/aiopg/connection.py", line 106, in _ready
+    state = self._conn.poll()
+psycopg2.errors.UndefinedTable: relation "auth" does not exist
+LINE 2:         INSERT INTO auth (
+                            ^
+
+2020-09-29 23:34:03 INFO-172.27.0.1 [29/Sep/2020:23:34:03 +0000] "POST /v1/signup HTTP/1.1" 500 330 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-09-29 23:34:30 INFO-Connecting to tcp://validator:4004
+2020-09-29 23:34:50 INFO-Connecting to tcp://validator:4004
+2020-09-29 23:39:45 INFO-Connecting to tcp://validator:4004
+2020-09-29 23:39:45 INFO-Connecting to database
+2020-09-29 23:39:45 DEBUG-Connection failed. Retrying connection (5 retries remaining)
+2020-09-29 23:39:47 INFO-SELECT t.oid, typarray FROM pg_type t JOIN pg_namespace ns ON typnamespace = ns.oid WHERE typname = 'hstore';
+2020-09-29 23:39:47 INFO-None
+2020-09-29 23:39:47 INFO-Successfully connected to database
+2020-09-29 23:39:54 INFO-
+        INSERT INTO auth (
+            public_key,
+            private_key,
+            name
+        )
+        VALUES ('031f8fb99011ca2136b9711216211bb4000e0b482bbcbefe6f1f2d1277525c372f', 'ef26341c93d2dc2e4fe3452b6c09c49ffd968445f2f79cffb3756f41d1c8cb2d', 'thangbk2209');
+        
+2020-09-29 23:39:54 INFO-None
+2020-09-29 23:39:54 ERROR-Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/aiohttp/web_protocol.py", line 376, in start
+    resp = await self._request_handler(request)
+  File "/usr/lib/python3/dist-packages/aiohttp/web_app.py", line 310, in _handle
+    resp = await handler(request)
+  File "/project/sawtooth-supply/rest_api/router_handler.py", line 31, in create_agent
+    public_key, private_key, name)
+  File "/project/sawtooth-supply/rest_api/database.py", line 166, in create_auth_entry
+    await cursor.execute(insert)
+  File "/usr/local/lib/python3.6/dist-packages/aiopg/cursor.py", line 113, in execute
+    await self._conn._poll(waiter, timeout)
+  File "/usr/local/lib/python3.6/dist-packages/aiopg/connection.py", line 207, in _poll
+    await asyncio.wait_for(self._waiter, timeout, loop=self._loop)
+  File "/usr/lib/python3.6/asyncio/tasks.py", line 358, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.6/dist-packages/aiopg/connection.py", line 106, in _ready
+    state = self._conn.poll()
+psycopg2.errors.UndefinedTable: relation "auth" does not exist
+LINE 2:         INSERT INTO auth (
+                            ^
+
+2020-09-29 23:39:54 INFO-172.28.0.1 [29/Sep/2020:23:39:54 +0000] "POST /v1/signup HTTP/1.1" 500 330 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-09-29 23:40:50 INFO-Connecting to tcp://validator:4004
+2020-09-29 23:40:50 INFO-Connecting to database
+2020-09-29 23:40:50 INFO-SELECT t.oid, typarray FROM pg_type t JOIN pg_namespace ns ON typnamespace = ns.oid WHERE typname = 'hstore';
+2020-09-29 23:40:50 INFO-None
+2020-09-29 23:40:50 INFO-Successfully connected to database
+2020-09-29 23:40:53 INFO-
+        INSERT INTO auth (
+            public_key,
+            private_key,
+            name
+        )
+        VALUES ('027afd53ad0b987ee64823a73f0bacc9a58670ac552397cb0aec288ab47e008100', 'd921549580b7d75783c262d8a81252a3a77e87de764913530200dab63de716a9', 'thangbk2209');
+        
+2020-09-29 23:40:53 INFO-None
+2020-09-29 23:40:53 ERROR-Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/aiohttp/web_protocol.py", line 376, in start
+    resp = await self._request_handler(request)
+  File "/usr/lib/python3/dist-packages/aiohttp/web_app.py", line 310, in _handle
+    resp = await handler(request)
+  File "/project/sawtooth-supply/rest_api/router_handler.py", line 31, in create_agent
+    public_key, private_key, name)
+  File "/project/sawtooth-supply/rest_api/database.py", line 166, in create_auth_entry
+    await cursor.execute(insert)
+  File "/usr/local/lib/python3.6/dist-packages/aiopg/cursor.py", line 113, in execute
+    await self._conn._poll(waiter, timeout)
+  File "/usr/local/lib/python3.6/dist-packages/aiopg/connection.py", line 207, in _poll
+    await asyncio.wait_for(self._waiter, timeout, loop=self._loop)
+  File "/usr/lib/python3.6/asyncio/tasks.py", line 358, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.6/dist-packages/aiopg/connection.py", line 106, in _ready
+    state = self._conn.poll()
+psycopg2.errors.UndefinedTable: relation "auth" does not exist
+LINE 2:         INSERT INTO auth (
+                            ^
+
+2020-09-29 23:40:53 INFO-172.28.0.1 [29/Sep/2020:23:40:53 +0000] "POST /v1/signup HTTP/1.1" 500 330 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-09-29 23:43:06 INFO-Connecting to tcp://validator:4004
+2020-09-29 23:43:06 INFO-Connecting to database
+2020-09-29 23:43:06 DEBUG-Connection failed. Retrying connection (5 retries remaining)
+2020-09-29 23:43:07 INFO-SELECT t.oid, typarray FROM pg_type t JOIN pg_namespace ns ON typnamespace = ns.oid WHERE typname = 'hstore';
+2020-09-29 23:43:07 INFO-None
+2020-09-29 23:43:07 INFO-Successfully connected to database
+2020-09-29 23:44:01 INFO-Connecting to tcp://validator:4004
+2020-09-29 23:44:01 INFO-Connecting to database
+2020-09-29 23:44:01 DEBUG-Connection failed. Retrying connection (5 retries remaining)
+2020-09-29 23:44:02 INFO-SELECT t.oid, typarray FROM pg_type t JOIN pg_namespace ns ON typnamespace = ns.oid WHERE typname = 'hstore';
+2020-09-29 23:44:02 INFO-None
+2020-09-29 23:44:02 INFO-Successfully connected to database
+2020-09-29 23:44:06 INFO-
+        INSERT INTO auth (
+            public_key,
+            private_key,
+            name
+        )
+        VALUES ('0360f56f0846321b9c3efdbe1b14e3e325df05d13975a5618714776be8bfc3de26', '2c49f2be5d610207576cce1c7d35af81371c962891561aed68f531d9bc2107df', 'thangbk2209');
+        
+2020-09-29 23:44:06 INFO-None
+2020-09-29 23:44:06 ERROR-Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/aiohttp/web_protocol.py", line 376, in start
+    resp = await self._request_handler(request)
+  File "/usr/lib/python3/dist-packages/aiohttp/web_app.py", line 310, in _handle
+    resp = await handler(request)
+  File "/project/sawtooth-supply/rest_api/router_handler.py", line 31, in create_agent
+    public_key, private_key, name)
+  File "/project/sawtooth-supply/rest_api/database.py", line 166, in create_auth_entry
+    await cursor.execute(insert)
+  File "/usr/local/lib/python3.6/dist-packages/aiopg/cursor.py", line 113, in execute
+    await self._conn._poll(waiter, timeout)
+  File "/usr/local/lib/python3.6/dist-packages/aiopg/connection.py", line 207, in _poll
+    await asyncio.wait_for(self._waiter, timeout, loop=self._loop)
+  File "/usr/lib/python3.6/asyncio/tasks.py", line 358, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.6/dist-packages/aiopg/connection.py", line 106, in _ready
+    state = self._conn.poll()
+psycopg2.errors.UndefinedTable: relation "auth" does not exist
+LINE 2:         INSERT INTO auth (
+                            ^
+
+2020-09-29 23:44:06 INFO-172.30.0.1 [29/Sep/2020:23:44:06 +0000] "POST /v1/signup HTTP/1.1" 500 330 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-09-29 23:44:56 INFO-Connecting to tcp://validator:4004
+2020-09-29 23:44:56 INFO-Connecting to database
+2020-09-29 23:44:56 DEBUG-Connection failed. Retrying connection (5 retries remaining)
+2020-09-29 23:44:57 DEBUG-Connection failed. Retrying connection (4 retries remaining)
+2020-09-29 23:44:59 INFO-SELECT t.oid, typarray FROM pg_type t JOIN pg_namespace ns ON typnamespace = ns.oid WHERE typname = 'hstore';
+2020-09-29 23:44:59 INFO-None
+2020-09-29 23:44:59 INFO-Successfully connected to database
+2020-09-29 23:46:33 INFO-Connecting to tcp://validator:4004
+2020-09-29 23:46:33 INFO-Connecting to database
+2020-09-29 23:46:33 DEBUG-Connection failed. Retrying connection (5 retries remaining)
+2020-09-29 23:46:34 INFO-SELECT t.oid, typarray FROM pg_type t JOIN pg_namespace ns ON typnamespace = ns.oid WHERE typname = 'hstore';
+2020-09-29 23:46:34 INFO-None
+2020-09-29 23:46:34 INFO-Successfully connected to database
+2020-09-29 23:47:48 INFO-Connecting to tcp://validator:4004
+2020-09-29 23:47:48 INFO-Connecting to database
+2020-09-29 23:47:48 DEBUG-Connection failed. Retrying connection (5 retries remaining)
+2020-09-29 23:47:49 INFO-SELECT t.oid, typarray FROM pg_type t JOIN pg_namespace ns ON typnamespace = ns.oid WHERE typname = 'hstore';
+2020-09-29 23:47:49 INFO-None
+2020-09-29 23:47:49 INFO-Successfully connected to database
+2020-09-29 23:47:52 INFO-
+        INSERT INTO auth (
+            public_key,
+            private_key,
+            name
+        )
+        VALUES ('0261db3ace335d2586a27c61271bf935d7245749cce18bf457f4b4bc3cb7339547', '996c1cc21df06a0cddfa35b6a72b4bb362f891a618db35994dfa8c8e27f62492', 'thangbk2209');
+        
+2020-09-29 23:47:52 INFO-None
+2020-09-29 23:47:52 ERROR-Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/aiohttp/web_protocol.py", line 376, in start
+    resp = await self._request_handler(request)
+  File "/usr/lib/python3/dist-packages/aiohttp/web_app.py", line 310, in _handle
+    resp = await handler(request)
+  File "/project/sawtooth-supply/rest_api/router_handler.py", line 31, in create_agent
+    public_key, private_key, name)
+  File "/project/sawtooth-supply/rest_api/database.py", line 166, in create_auth_entry
+    await cursor.execute(insert)
+  File "/usr/local/lib/python3.6/dist-packages/aiopg/cursor.py", line 113, in execute
+    await self._conn._poll(waiter, timeout)
+  File "/usr/local/lib/python3.6/dist-packages/aiopg/connection.py", line 207, in _poll
+    await asyncio.wait_for(self._waiter, timeout, loop=self._loop)
+  File "/usr/lib/python3.6/asyncio/tasks.py", line 358, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.6/dist-packages/aiopg/connection.py", line 106, in _ready
+    state = self._conn.poll()
+psycopg2.errors.UndefinedTable: relation "auth" does not exist
+LINE 2:         INSERT INTO auth (
+                            ^
+
+2020-09-29 23:47:52 INFO-192.168.16.1 [29/Sep/2020:23:47:52 +0000] "POST /v1/signup HTTP/1.1" 500 330 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-09-29 23:48:49 INFO-Connecting to tcp://validator:4004
+2020-09-29 23:48:49 INFO-Connecting to database
+2020-09-29 23:48:49 INFO-SELECT t.oid, typarray FROM pg_type t JOIN pg_namespace ns ON typnamespace = ns.oid WHERE typname = 'hstore';
+2020-09-29 23:48:49 INFO-None
+2020-09-29 23:48:49 INFO-Successfully connected to database
+2020-09-29 23:49:39 INFO-Connecting to tcp://validator:4004
+2020-09-29 23:49:39 INFO-Connecting to database
+2020-09-29 23:49:39 INFO-SELECT t.oid, typarray FROM pg_type t JOIN pg_namespace ns ON typnamespace = ns.oid WHERE typname = 'hstore';
+2020-09-29 23:49:39 INFO-None
+2020-09-29 23:49:39 INFO-Successfully connected to database
+2020-09-29 23:49:47 INFO-
+        INSERT INTO auth (
+            public_key,
+            private_key,
+            name
+        )
+        VALUES ('0331387db260db225b67beaa7f7fe55f3f07c284c476b8d81d9826b820012b7f64', 'cad9ace5a3ed2f24cbc73f271e9f25f8f2e36c8a2461e423f190aa3bfe542402', 'thangbk2209');
+        
+2020-09-29 23:49:47 INFO-None
+2020-09-29 23:49:47 ERROR-Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/aiohttp/web_protocol.py", line 376, in start
+    resp = await self._request_handler(request)
+  File "/usr/lib/python3/dist-packages/aiohttp/web_app.py", line 310, in _handle
+    resp = await handler(request)
+  File "/project/sawtooth-supply/rest_api/router_handler.py", line 31, in create_agent
+    public_key, private_key, name)
+  File "/project/sawtooth-supply/rest_api/database.py", line 166, in create_auth_entry
+    await cursor.execute(insert)
+  File "/usr/local/lib/python3.6/dist-packages/aiopg/cursor.py", line 113, in execute
+    await self._conn._poll(waiter, timeout)
+  File "/usr/local/lib/python3.6/dist-packages/aiopg/connection.py", line 207, in _poll
+    await asyncio.wait_for(self._waiter, timeout, loop=self._loop)
+  File "/usr/lib/python3.6/asyncio/tasks.py", line 358, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.6/dist-packages/aiopg/connection.py", line 106, in _ready
+    state = self._conn.poll()
+psycopg2.errors.UndefinedColumn: column "private_key" of relation "auth" does not exist
+LINE 4:             private_key,
+                    ^
+
+2020-09-29 23:49:47 INFO-192.168.16.1 [29/Sep/2020:23:49:47 +0000] "POST /v1/signup HTTP/1.1" 500 330 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-09-29 23:50:15 INFO-Connecting to tcp://validator:4004
+2020-09-29 23:50:15 INFO-Connecting to database
+2020-09-29 23:50:15 INFO-SELECT t.oid, typarray FROM pg_type t JOIN pg_namespace ns ON typnamespace = ns.oid WHERE typname = 'hstore';
+2020-09-29 23:50:15 INFO-None
+2020-09-29 23:50:15 INFO-Successfully connected to database
+2020-09-29 23:50:22 INFO-
+        INSERT INTO auth (
+            public_key,
+            private_key,
+            name
+        )
+        VALUES ('03bd8870dcadd72eb730befb062498d3b07b31e0dedc456a3faaae626cea701f08', '8a91e763093680e6aec18f1fce98397592ec2c94ccedccf73e96e1171528456e', 'thangbk2209');
+        
+2020-09-29 23:50:22 INFO-None
+2020-09-29 23:50:22 ERROR-Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/aiohttp/web_protocol.py", line 376, in start
+    resp = await self._request_handler(request)
+  File "/usr/lib/python3/dist-packages/aiohttp/web_app.py", line 310, in _handle
+    resp = await handler(request)
+  File "/project/sawtooth-supply/rest_api/router_handler.py", line 31, in create_agent
+    public_key, private_key, name)
+  File "/project/sawtooth-supply/rest_api/database.py", line 166, in create_auth_entry
+    await cursor.execute(insert)
+  File "/usr/local/lib/python3.6/dist-packages/aiopg/cursor.py", line 113, in execute
+    await self._conn._poll(waiter, timeout)
+  File "/usr/local/lib/python3.6/dist-packages/aiopg/connection.py", line 207, in _poll
+    await asyncio.wait_for(self._waiter, timeout, loop=self._loop)
+  File "/usr/lib/python3.6/asyncio/tasks.py", line 358, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.6/dist-packages/aiopg/connection.py", line 106, in _ready
+    state = self._conn.poll()
+psycopg2.errors.UndefinedColumn: column "private_key" of relation "auth" does not exist
+LINE 4:             private_key,
+                    ^
+
+2020-09-29 23:50:22 INFO-192.168.16.1 [29/Sep/2020:23:50:22 +0000] "POST /v1/signup HTTP/1.1" 500 330 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-09-29 23:51:45 INFO-Connecting to tcp://validator:4004
+2020-09-29 23:51:45 INFO-Connecting to database
+2020-09-29 23:51:45 INFO-SELECT t.oid, typarray FROM pg_type t JOIN pg_namespace ns ON typnamespace = ns.oid WHERE typname = 'hstore';
+2020-09-29 23:51:45 INFO-None
+2020-09-29 23:51:45 INFO-Successfully connected to database
+2020-09-29 23:51:54 INFO-
+        INSERT INTO auth (
+            public_key,
+            private_key,
+            name
+        )
+        VALUES ('02cabc2d0be4a59ce53ade9cb8b8498387560cee4738a66f4a0cce309dfc9ba5f7', 'afeeccc333158c3172d92e4eca95a202bf29c13556c420071359e0307b7f5e54', 'thangbk2209');
+        
+2020-09-29 23:51:54 INFO-None
+2020-09-29 23:51:54 ERROR-Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/aiohttp/web_protocol.py", line 376, in start
+    resp = await self._request_handler(request)
+  File "/usr/lib/python3/dist-packages/aiohttp/web_app.py", line 310, in _handle
+    resp = await handler(request)
+  File "/project/sawtooth-supply/rest_api/router_handler.py", line 31, in create_agent
+    public_key, private_key, name)
+  File "/project/sawtooth-supply/rest_api/database.py", line 166, in create_auth_entry
+    await cursor.execute(insert)
+  File "/usr/local/lib/python3.6/dist-packages/aiopg/cursor.py", line 113, in execute
+    await self._conn._poll(waiter, timeout)
+  File "/usr/local/lib/python3.6/dist-packages/aiopg/connection.py", line 207, in _poll
+    await asyncio.wait_for(self._waiter, timeout, loop=self._loop)
+  File "/usr/lib/python3.6/asyncio/tasks.py", line 358, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.6/dist-packages/aiopg/connection.py", line 106, in _ready
+    state = self._conn.poll()
+psycopg2.errors.UndefinedColumn: column "private_key" of relation "auth" does not exist
+LINE 4:             private_key,
+                    ^
+
+2020-09-29 23:51:54 INFO-192.168.16.1 [29/Sep/2020:23:51:54 +0000] "POST /v1/signup HTTP/1.1" 500 330 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-09-30 00:01:57 INFO-Connecting to tcp://validator:4004
+2020-09-30 00:01:57 INFO-Connecting to database
+2020-09-30 00:01:57 INFO-SELECT t.oid, typarray FROM pg_type t JOIN pg_namespace ns ON typnamespace = ns.oid WHERE typname = 'hstore';
+2020-09-30 00:01:57 INFO-None
+2020-09-30 00:01:57 INFO-Successfully connected to database
+2020-09-30 00:02:03 INFO-
+        INSERT INTO auth (
+            public_key,
+            private_key,
+            name
+        )
+        VALUES ('0309b79b6b992143f865b9ac6b52108671b8898c51bddf78b06c50b36df7cdc494', '56f33279d124825c43b0e849034c1f6c87788c23f5dd396642cb9aac43ce4589', 'thangbk2209');
+        
+2020-09-30 00:02:03 INFO-None
+2020-09-30 00:02:03 ERROR-Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/aiohttp/web_protocol.py", line 376, in start
+    resp = await self._request_handler(request)
+  File "/usr/lib/python3/dist-packages/aiohttp/web_app.py", line 310, in _handle
+    resp = await handler(request)
+  File "/project/sawtooth-supply/rest_api/router_handler.py", line 32, in create_agent
+    public_key, private_key, name)
+  File "/project/sawtooth-supply/rest_api/database.py", line 142, in create_auth_entry
+    await cursor.execute(insert)
+  File "/usr/local/lib/python3.6/dist-packages/aiopg/cursor.py", line 113, in execute
+    await self._conn._poll(waiter, timeout)
+  File "/usr/local/lib/python3.6/dist-packages/aiopg/connection.py", line 207, in _poll
+    await asyncio.wait_for(self._waiter, timeout, loop=self._loop)
+  File "/usr/lib/python3.6/asyncio/tasks.py", line 358, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.6/dist-packages/aiopg/connection.py", line 106, in _ready
+    state = self._conn.poll()
+psycopg2.errors.UndefinedTable: relation "auth" does not exist
+LINE 2:         INSERT INTO auth (
+                            ^
+
+2020-09-30 00:02:03 INFO-192.168.48.1 [30/Sep/2020:00:02:03 +0000] "POST /v1/signup HTTP/1.1" 500 330 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-09-30 00:02:35 INFO-Connecting to tcp://validator:4004
+2020-09-30 00:02:35 INFO-Connecting to database
+2020-09-30 00:02:35 DEBUG-Connection failed. Retrying connection (5 retries remaining)
+2020-09-30 00:02:36 INFO-SELECT t.oid, typarray FROM pg_type t JOIN pg_namespace ns ON typnamespace = ns.oid WHERE typname = 'hstore';
+2020-09-30 00:02:36 INFO-None
+2020-09-30 00:02:36 INFO-Successfully connected to database
+2020-09-30 00:02:42 INFO-
+        INSERT INTO auth (
+            public_key,
+            private_key,
+            name
+        )
+        VALUES ('03dc1d35cc5cf73b95ccec2f8d4e71bf7a49d77d10060a4c1d082c556cc54c0191', '5aa2688bbea667efa74935f9865c8b5d6f4b538156819742ca4f99e7f9b24d1f', 'thangbk2209');
+        
+2020-09-30 00:02:42 INFO-None
+2020-09-30 00:02:42 INFO-192.168.80.1 [30/Sep/2020:00:02:42 +0000] "POST /v1/signup HTTP/1.1" 200 444 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-09-30 00:05:57 ERROR-Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/aiohttp/web_protocol.py", line 376, in start
+    resp = await self._request_handler(request)
+  File "/usr/lib/python3/dist-packages/aiohttp/web_app.py", line 310, in _handle
+    resp = await handler(request)
+  File "/project/sawtooth-supply/rest_api/router_handler.py", line 54, in create_item
+    private_key = agent['private_key']
+TypeError: 'coroutine' object is not subscriptable
+2020-09-30 00:05:57 INFO-192.168.80.1 [30/Sep/2020:00:05:57 +0000] "POST /v1/createItem HTTP/1.1" 500 330 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-09-30 00:06:26 INFO-Connecting to tcp://validator:4004
+2020-09-30 00:06:26 INFO-Connecting to database
+2020-09-30 00:06:26 INFO-SELECT t.oid, typarray FROM pg_type t JOIN pg_namespace ns ON typnamespace = ns.oid WHERE typname = 'hstore';
+2020-09-30 00:06:26 INFO-None
+2020-09-30 00:06:26 INFO-Successfully connected to database
+2020-09-30 00:06:33 ERROR-Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/aiohttp/web_protocol.py", line 376, in start
+    resp = await self._request_handler(request)
+  File "/usr/lib/python3/dist-packages/aiohttp/web_app.py", line 310, in _handle
+    resp = await handler(request)
+  File "/project/sawtooth-supply/rest_api/router_handler.py", line 55, in create_item
+    private_key = agent['private_key']
+TypeError: 'coroutine' object is not subscriptable
+2020-09-30 00:06:33 INFO-192.168.80.1 [30/Sep/2020:00:06:33 +0000] "POST /v1/createItem HTTP/1.1" 500 330 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-09-30 00:08:14 INFO-Connecting to tcp://validator:4004
+2020-09-30 00:08:14 INFO-Connecting to database
+2020-09-30 00:08:14 INFO-SELECT t.oid, typarray FROM pg_type t JOIN pg_namespace ns ON typnamespace = ns.oid WHERE typname = 'hstore';
+2020-09-30 00:08:14 INFO-None
+2020-09-30 00:08:14 INFO-Successfully connected to database
+2020-09-30 00:08:21 INFO-
+        SELECT public_key, name, timestamp FROM agents
+        WHERE name='thangbk2209'
+        AND (
+SELECT max(block_num) FROM blocks
+) >= start_block_num
+        AND (
+SELECT max(block_num) FROM blocks
+) < end_block_num;
+        
+2020-09-30 00:08:21 INFO-None
+2020-09-30 00:08:21 ERROR-Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/aiohttp/web_protocol.py", line 376, in start
+    resp = await self._request_handler(request)
+  File "/usr/lib/python3/dist-packages/aiohttp/web_app.py", line 310, in _handle
+    resp = await handler(request)
+  File "/project/sawtooth-supply/rest_api/router_handler.py", line 55, in create_item
+    private_key = agent['private_key']
+TypeError: 'NoneType' object is not subscriptable
+2020-09-30 00:08:21 INFO-192.168.80.1 [30/Sep/2020:00:08:21 +0000] "POST /v1/createItem HTTP/1.1" 500 330 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-09-30 00:08:58 INFO-Connecting to tcp://validator:4004
+2020-09-30 00:08:58 INFO-Connecting to database
+2020-09-30 00:08:58 INFO-SELECT t.oid, typarray FROM pg_type t JOIN pg_namespace ns ON typnamespace = ns.oid WHERE typname = 'hstore';
+2020-09-30 00:08:58 INFO-None
+2020-09-30 00:08:58 INFO-Successfully connected to database
+2020-09-30 00:09:09 INFO-
+        SELECT public_key, name, timestamp FROM agents
+        WHERE name='thangbk2209'
+        
+2020-09-30 00:09:09 INFO-None
+2020-09-30 00:09:10 ERROR-Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/aiohttp/web_protocol.py", line 376, in start
+    resp = await self._request_handler(request)
+  File "/usr/lib/python3/dist-packages/aiohttp/web_app.py", line 310, in _handle
+    resp = await handler(request)
+  File "/project/sawtooth-supply/rest_api/router_handler.py", line 55, in create_item
+    private_key = agent['private_key']
+TypeError: 'NoneType' object is not subscriptable
+2020-09-30 00:09:10 INFO-192.168.80.1 [30/Sep/2020:00:09:09 +0000] "POST /v1/createItem HTTP/1.1" 500 330 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-09-30 00:09:36 INFO-Connecting to tcp://validator:4004
+2020-09-30 00:09:36 INFO-Connecting to database
+2020-09-30 00:09:36 INFO-SELECT t.oid, typarray FROM pg_type t JOIN pg_namespace ns ON typnamespace = ns.oid WHERE typname = 'hstore';
+2020-09-30 00:09:36 INFO-None
+2020-09-30 00:09:36 INFO-Successfully connected to database
+2020-09-30 00:09:40 INFO-
+        SELECT public_key, name, timestamp FROM agents
+        WHERE name='thangbk2209'
+        
+2020-09-30 00:09:40 INFO-None
+2020-09-30 00:09:40 ERROR-Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/aiohttp/web_protocol.py", line 376, in start
+    resp = await self._request_handler(request)
+  File "/usr/lib/python3/dist-packages/aiohttp/web_app.py", line 310, in _handle
+    resp = await handler(request)
+  File "/project/sawtooth-supply/rest_api/router_handler.py", line 55, in create_item
+    private_key = agent['private_key']
+TypeError: 'NoneType' object is not subscriptable
+2020-09-30 00:09:40 INFO-192.168.80.1 [30/Sep/2020:00:09:40 +0000] "POST /v1/createItem HTTP/1.1" 500 330 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-09-30 00:09:45 INFO-
+        SELECT public_key, name, timestamp FROM agents
+        WHERE name='thangbk2209'
+        
+2020-09-30 00:09:45 INFO-None
+2020-09-30 00:09:45 ERROR-Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/aiohttp/web_protocol.py", line 376, in start
+    resp = await self._request_handler(request)
+  File "/usr/lib/python3/dist-packages/aiohttp/web_app.py", line 310, in _handle
+    resp = await handler(request)
+  File "/project/sawtooth-supply/rest_api/router_handler.py", line 55, in create_item
+    private_key = agent['private_key']
+TypeError: 'NoneType' object is not subscriptable
+2020-09-30 00:09:45 INFO-192.168.80.1 [30/Sep/2020:00:09:45 +0000] "POST /v1/createItem HTTP/1.1" 500 330 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-09-30 00:10:11 INFO-Connecting to tcp://validator:4004
+2020-09-30 00:10:11 INFO-Connecting to database
+2020-09-30 00:10:11 INFO-SELECT t.oid, typarray FROM pg_type t JOIN pg_namespace ns ON typnamespace = ns.oid WHERE typname = 'hstore';
+2020-09-30 00:10:11 INFO-None
+2020-09-30 00:10:11 INFO-Successfully connected to database
+2020-09-30 00:10:23 INFO-Connecting to tcp://validator:4004
+2020-09-30 00:10:23 INFO-Connecting to database
+2020-09-30 00:10:23 INFO-SELECT t.oid, typarray FROM pg_type t JOIN pg_namespace ns ON typnamespace = ns.oid WHERE typname = 'hstore';
+2020-09-30 00:10:23 INFO-None
+2020-09-30 00:10:23 INFO-Successfully connected to database
+2020-09-30 00:10:29 INFO-
+        SELECT public_key, name, private_key FROM auth
+        WHERE name='thangbk2209'
+        
+2020-09-30 00:10:29 INFO-None
+2020-09-30 00:10:30 INFO-192.168.80.1 [30/Sep/2020:00:10:29 +0000] "POST /v1/createItem HTTP/1.1" 200 206 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-09-30 00:12:35 INFO-Connecting to tcp://validator:4004
+2020-09-30 00:12:35 INFO-Connecting to database
+2020-09-30 00:12:35 INFO-SELECT t.oid, typarray FROM pg_type t JOIN pg_namespace ns ON typnamespace = ns.oid WHERE typname = 'hstore';
+2020-09-30 00:12:35 INFO-None
+2020-09-30 00:12:35 INFO-Successfully connected to database
+2020-09-30 00:12:53 INFO-
+        SELECT public_key, name, private_key FROM auth
+        WHERE name='thangbk2209'
+        
+2020-09-30 00:12:53 INFO-None
+2020-09-30 00:12:54 INFO-192.168.80.1 [30/Sep/2020:00:12:53 +0000] "POST /v1/updateItem HTTP/1.1" 200 202 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-09-30 00:13:22 INFO-
+        INSERT INTO auth (
+            public_key,
+            private_key,
+            name
+        )
+        VALUES ('026e6db2e700012e6919fcd9873bf707d8b3e715cb532a039df1adaf116c5d98d3', '16af2e9170dc989b809e7aa996f0954a22e3209e012cf9b83675b92caec9ce1a', 'abc');
+        
+2020-09-30 00:13:22 INFO-None
+2020-09-30 00:13:22 INFO-192.168.80.1 [30/Sep/2020:00:13:22 +0000] "POST /v1/signup HTTP/1.1" 200 444 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-09-30 00:13:31 INFO-
+        SELECT public_key, name, private_key FROM auth
+        WHERE name='abc'
+        
+2020-09-30 00:13:31 INFO-None
+2020-09-30 00:13:31 INFO-
+        SELECT public_key, name, private_key FROM auth
+        WHERE name='thangbk2209'
+        
+2020-09-30 00:13:31 INFO-None
+2020-09-30 00:13:31 ERROR-Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/aiohttp/web_protocol.py", line 376, in start
+    resp = await self._request_handler(request)
+  File "/usr/lib/python3/dist-packages/aiohttp/web_app.py", line 310, in _handle
+    resp = await handler(request)
+  File "/project/sawtooth-supply/rest_api/router_handler.py", line 104, in tranfer_item
+    timestamp=get_time()
+  File "/project/sawtooth-supply/rest_api/messaging.py", line 94, in send_tranfer_item_transaction
+    timestamp=timestamp
+  File "/project/sawtooth-supply/rest_api/transaction_creation.py", line 90, in make_tranfer_item_transaction
+    received_agent_address = addresser.get_agent_address(received_agent)
+  File "/project/sawtooth-supply/rest_api/addresser.py", line 37, in get_agent_address
+    public_key.encode('utf-8')).hexdigest()[:62]
+AttributeError: 'RealDictRow' object has no attribute 'encode'
+2020-09-30 00:13:31 INFO-192.168.80.1 [30/Sep/2020:00:13:31 +0000] "POST /v1/tranferItem HTTP/1.1" 500 330 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-09-30 00:13:56 INFO-Connecting to tcp://validator:4004
+2020-09-30 00:13:56 INFO-Connecting to database
+2020-09-30 00:13:56 INFO-SELECT t.oid, typarray FROM pg_type t JOIN pg_namespace ns ON typnamespace = ns.oid WHERE typname = 'hstore';
+2020-09-30 00:13:56 INFO-None
+2020-09-30 00:13:56 INFO-Successfully connected to database
+2020-09-30 00:14:03 INFO-
+        SELECT public_key, name, private_key FROM auth
+        WHERE name='abc'
+        
+2020-09-30 00:14:03 INFO-None
+2020-09-30 00:14:03 INFO-
+        SELECT public_key, name, private_key FROM auth
+        WHERE name='thangbk2209'
+        
+2020-09-30 00:14:03 INFO-None
+2020-09-30 00:14:03 ERROR-Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/aiohttp/web_protocol.py", line 376, in start
+    resp = await self._request_handler(request)
+  File "/usr/lib/python3/dist-packages/aiohttp/web_app.py", line 310, in _handle
+    resp = await handler(request)
+  File "/project/sawtooth-supply/rest_api/router_handler.py", line 104, in tranfer_item
+    timestamp=get_time()
+  File "/project/sawtooth-supply/rest_api/messaging.py", line 94, in send_tranfer_item_transaction
+    timestamp=timestamp
+  File "/project/sawtooth-supply/rest_api/transaction_creation.py", line 90, in make_tranfer_item_transaction
+    received_agent_address = addresser.get_agent_address(received_agent)
+  File "/project/sawtooth-supply/rest_api/addresser.py", line 37, in get_agent_address
+    public_key.encode('utf-8')).hexdigest()[:62]
+AttributeError: 'RealDictRow' object has no attribute 'encode'
+2020-09-30 00:14:03 INFO-192.168.80.1 [30/Sep/2020:00:14:03 +0000] "POST /v1/tranferItem HTTP/1.1" 500 330 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-09-30 00:15:01 INFO-Connecting to tcp://validator:4004
+2020-09-30 00:15:02 INFO-Connecting to database
+2020-09-30 00:15:02 INFO-SELECT t.oid, typarray FROM pg_type t JOIN pg_namespace ns ON typnamespace = ns.oid WHERE typname = 'hstore';
+2020-09-30 00:15:02 INFO-None
+2020-09-30 00:15:02 INFO-Successfully connected to database
+2020-09-30 00:15:13 INFO-
+        SELECT public_key, name, private_key FROM auth
+        WHERE name='abc'
+        
+2020-09-30 00:15:13 INFO-None
+2020-09-30 00:15:13 INFO-
+        SELECT public_key, name, private_key FROM auth
+        WHERE name='thangbk2209'
+        
+2020-09-30 00:15:13 INFO-None
+2020-09-30 00:15:13 ERROR-Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/aiohttp/web_protocol.py", line 376, in start
+    resp = await self._request_handler(request)
+  File "/usr/lib/python3/dist-packages/aiohttp/web_app.py", line 310, in _handle
+    resp = await handler(request)
+  File "/project/sawtooth-supply/rest_api/router_handler.py", line 106, in tranfer_item
+    timestamp=get_time()
+  File "/project/sawtooth-supply/rest_api/messaging.py", line 94, in send_tranfer_item_transaction
+    timestamp=timestamp
+  File "/project/sawtooth-supply/rest_api/transaction_creation.py", line 90, in make_tranfer_item_transaction
+    received_agent_address = addresser.get_agent_address(received_agent)
+  File "/project/sawtooth-supply/rest_api/addresser.py", line 37, in get_agent_address
+    public_key.encode('utf-8')).hexdigest()[:62]
+AttributeError: 'RealDictRow' object has no attribute 'encode'
+2020-09-30 00:15:13 INFO-192.168.80.1 [30/Sep/2020:00:15:13 +0000] "POST /v1/tranferItem HTTP/1.1" 500 330 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-09-30 00:15:33 INFO-Connecting to tcp://validator:4004
+2020-09-30 00:15:33 INFO-Connecting to database
+2020-09-30 00:15:33 INFO-SELECT t.oid, typarray FROM pg_type t JOIN pg_namespace ns ON typnamespace = ns.oid WHERE typname = 'hstore';
+2020-09-30 00:15:33 INFO-None
+2020-09-30 00:15:33 INFO-Successfully connected to database
+2020-09-30 00:15:35 INFO-
+        SELECT public_key, name, private_key FROM auth
+        WHERE name='abc'
+        
+2020-09-30 00:15:35 INFO-None
+2020-09-30 00:15:35 INFO-
+        SELECT public_key, name, private_key FROM auth
+        WHERE name='thangbk2209'
+        
+2020-09-30 00:15:35 INFO-None
+2020-09-30 00:15:35 INFO-192.168.80.1 [30/Sep/2020:00:15:35 +0000] "POST /v1/tranferItem HTTP/1.1" 200 203 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-09-30 06:48:15 INFO-Connecting to tcp://validator:4004
+2020-09-30 06:48:15 INFO-Connecting to database
+2020-09-30 06:48:15 INFO-SELECT t.oid, typarray FROM pg_type t JOIN pg_namespace ns ON typnamespace = ns.oid WHERE typname = 'hstore';
+2020-09-30 06:48:15 INFO-None
+2020-09-30 06:48:15 INFO-Successfully connected to database
+2020-09-30 06:53:05 INFO-
+        INSERT INTO auth (
+            public_key,
+            private_key,
+            name
+        )
+        VALUES ('02392ff313d39ec5d275c04285dee9eb639adc1341ea0d9d6a4cfc3b9409d6d446', '8f4b4058b3571eb915686a65f4b85683f850f767147dc90738c258d63a56b4e3', 'abc');
+        
+2020-09-30 06:53:05 INFO-None
+2020-09-30 06:53:06 INFO-192.168.176.1 [30/Sep/2020:06:53:05 +0000] "POST /v1/signup HTTP/1.1" 200 444 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-09-30 09:10:39 INFO-
+        INSERT INTO auth (
+            public_key,
+            private_key,
+            name
+        )
+        VALUES ('03975c278479d9f83c4d086ec748cce5e462d35c2ca0ae72e39ed37e1649d51664', 'faaa543a0387db1f5802b1dd1423bd819c2ff66dde3c5bc2d2c17da42936ed16', 'thang');
+        
+2020-09-30 09:10:39 INFO-None
+2020-09-30 09:10:39 INFO-192.168.176.1 [30/Sep/2020:09:10:39 +0000] "POST /v1/signup HTTP/1.1" 200 444 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-09-30 09:11:14 INFO-
+        INSERT INTO auth (
+            public_key,
+            private_key,
+            name
+        )
+        VALUES ('0259ae74bc3ca6b1e403f41a9512934047c3174ab9d7015aa1aaa05a5398e4778a', 'dec907dc20595979209fece81c99cb32c8589a9e36ac88e66709d7c09b5f4c67', 'thang1');
+        
+2020-09-30 09:11:14 INFO-None
+2020-09-30 09:11:14 INFO-192.168.176.1 [30/Sep/2020:09:11:14 +0000] "POST /v1/signup HTTP/1.1" 200 444 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-09-30 09:20:22 INFO-
+        SELECT public_key, name, private_key FROM auth
+        WHERE name='thang'
+        
+2020-09-30 09:20:22 INFO-None
+2020-09-30 09:20:23 INFO-192.168.176.1 [30/Sep/2020:09:20:22 +0000] "POST /v1/createItem HTTP/1.1" 200 206 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-09-30 09:20:34 INFO-
+        SELECT public_key, name, private_key FROM auth
+        WHERE name='thang'
+        
+2020-09-30 09:20:34 INFO-None
+2020-09-30 09:20:34 INFO-192.168.176.1 [30/Sep/2020:09:20:34 +0000] "POST /v1/createItem HTTP/1.1" 400 238 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-09-30 09:21:00 INFO-
+        SELECT public_key, name, private_key FROM auth
+        WHERE name='thang5'
+        
+2020-09-30 09:21:00 INFO-None
+2020-09-30 09:21:00 ERROR-Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/aiohttp/web_protocol.py", line 376, in start
+    resp = await self._request_handler(request)
+  File "/usr/lib/python3/dist-packages/aiohttp/web_app.py", line 310, in _handle
+    resp = await handler(request)
+  File "/project/sawtooth-supply/rest_api/router_handler.py", line 55, in create_item
+    private_key = agent['private_key']
+TypeError: 'NoneType' object is not subscriptable
+2020-09-30 09:21:00 INFO-192.168.176.1 [30/Sep/2020:09:21:00 +0000] "POST /v1/createItem HTTP/1.1" 500 330 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-09-30 09:25:31 INFO-
+        SELECT public_key, name, private_key FROM auth
+        WHERE name='thang'
+        
+2020-09-30 09:25:31 INFO-None
+2020-09-30 09:25:31 INFO-192.168.176.1 [30/Sep/2020:09:25:31 +0000] "POST /v1/updateItem HTTP/1.1" 200 202 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-10-02 06:34:33 INFO-Connecting to tcp://validator:4004
+2020-10-02 06:34:33 INFO-Connecting to database
+2020-10-02 06:34:33 INFO-SELECT t.oid, typarray FROM pg_type t JOIN pg_namespace ns ON typnamespace = ns.oid WHERE typname = 'hstore';
+2020-10-02 06:34:33 INFO-None
+2020-10-02 06:34:33 INFO-Successfully connected to database
+2020-10-02 06:34:51 INFO-
+        INSERT INTO auth (
+            public_key,
+            private_key,
+            name
+        )
+        VALUES ('026f319495c4b148e28150d1abcc184b8b95cc2ee73bdd53af4b5053a6cb02a168', '568bcdb51f1ea2dcc3f2defd90a1f10bb122bf4b9ff278ef27884f572ebfa8e5', 'thang1');
+        
+2020-10-02 06:34:51 INFO-None
+2020-10-02 06:34:51 INFO-192.168.240.1 [02/Oct/2020:06:34:51 +0000] "POST /v1/signup HTTP/1.1" 200 444 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-10-02 06:35:12 INFO-
+        SELECT public_key, name, private_key FROM auth
+        WHERE name='thang1'
+        
+2020-10-02 06:35:12 INFO-None
+2020-10-02 06:35:12 INFO-192.168.240.1 [02/Oct/2020:06:35:12 +0000] "POST /v1/updateItem HTTP/1.1" 400 232 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-10-02 06:35:21 INFO-
+        SELECT public_key, name, private_key FROM auth
+        WHERE name='thang1'
+        
+2020-10-02 06:35:21 INFO-None
+2020-10-02 06:35:21 INFO-192.168.240.1 [02/Oct/2020:06:35:21 +0000] "POST /v1/updateItem HTTP/1.1" 400 233 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-10-02 06:36:25 INFO-192.168.240.1 [02/Oct/2020:06:36:25 +0000] "POST /createItem HTTP/1.1" 404 172 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-10-02 06:36:31 INFO-
+        SELECT public_key, name, private_key FROM auth
+        WHERE name='thang1'
+        
+2020-10-02 06:36:31 INFO-None
+2020-10-02 06:36:31 ERROR-Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/aiohttp/web_protocol.py", line 376, in start
+    resp = await self._request_handler(request)
+  File "/usr/lib/python3/dist-packages/aiohttp/web_app.py", line 310, in _handle
+    resp = await handler(request)
+  File "/project/sawtooth-supply/rest_api/router_handler.py", line 63, in create_item
+    timestamp=get_time()
+  File "/project/sawtooth-supply/rest_api/messaging.py", line 62, in send_create_item_transaction
+    timestamp=timestamp
+  File "/project/sawtooth-supply/rest_api/transaction_creation.py", line 41, in make_create_item_transaction
+    item_address = addresser.get_item_address(item_id)
+  File "/project/sawtooth-supply/rest_api/addresser.py", line 42, in get_item_address
+    record_id.encode('utf-8')).hexdigest()[:62]
+AttributeError: 'NoneType' object has no attribute 'encode'
+2020-10-02 06:36:31 INFO-192.168.240.1 [02/Oct/2020:06:36:31 +0000] "POST /v1/createItem HTTP/1.1" 500 330 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-10-02 06:37:16 INFO-Connecting to tcp://validator:4004
+2020-10-02 06:37:16 INFO-Connecting to database
+2020-10-02 06:37:17 INFO-SELECT t.oid, typarray FROM pg_type t JOIN pg_namespace ns ON typnamespace = ns.oid WHERE typname = 'hstore';
+2020-10-02 06:37:17 INFO-None
+2020-10-02 06:37:17 INFO-Successfully connected to database
+2020-10-02 06:37:32 INFO-
+        SELECT public_key, name, private_key FROM auth
+        WHERE name='thang1'
+        
+2020-10-02 06:37:32 INFO-None
+2020-10-02 06:37:32 ERROR-Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/aiohttp/web_protocol.py", line 376, in start
+    resp = await self._request_handler(request)
+  File "/usr/lib/python3/dist-packages/aiohttp/web_app.py", line 310, in _handle
+    resp = await handler(request)
+  File "/project/sawtooth-supply/rest_api/router_handler.py", line 63, in create_item
+    timestamp=get_time()
+  File "/project/sawtooth-supply/rest_api/messaging.py", line 62, in send_create_item_transaction
+    timestamp=timestamp
+  File "/project/sawtooth-supply/rest_api/transaction_creation.py", line 41, in make_create_item_transaction
+    item_address = addresser.get_item_address(item_id)
+  File "/project/sawtooth-supply/rest_api/addresser.py", line 42, in get_item_address
+    record_id.encode('utf-8')).hexdigest()[:62]
+AttributeError: 'NoneType' object has no attribute 'encode'
+2020-10-02 06:37:32 INFO-192.168.240.1 [02/Oct/2020:06:37:32 +0000] "POST /v1/createItem HTTP/1.1" 500 330 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-10-02 06:38:32 INFO-Connecting to tcp://validator:4004
+2020-10-02 06:38:32 INFO-Connecting to database
+2020-10-02 06:38:32 INFO-SELECT t.oid, typarray FROM pg_type t JOIN pg_namespace ns ON typnamespace = ns.oid WHERE typname = 'hstore';
+2020-10-02 06:38:32 INFO-None
+2020-10-02 06:38:32 INFO-Successfully connected to database
+2020-10-02 06:38:35 INFO-
+        SELECT public_key, name, private_key FROM auth
+        WHERE name='thang1'
+        
+2020-10-02 06:38:35 INFO-None
+2020-10-02 06:38:35 ERROR-Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/aiohttp/web_protocol.py", line 376, in start
+    resp = await self._request_handler(request)
+  File "/usr/lib/python3/dist-packages/aiohttp/web_app.py", line 310, in _handle
+    resp = await handler(request)
+  File "/project/sawtooth-supply/rest_api/router_handler.py", line 63, in create_item
+    timestamp=get_time()
+  File "/project/sawtooth-supply/rest_api/messaging.py", line 62, in send_create_item_transaction
+    timestamp=timestamp
+  File "/project/sawtooth-supply/rest_api/transaction_creation.py", line 41, in make_create_item_transaction
+    item_address = addresser.get_item_address(item_id)
+  File "/project/sawtooth-supply/rest_api/addresser.py", line 42, in get_item_address
+    item_id.encode('utf-8')).hexdigest()[:62]
+AttributeError: 'NoneType' object has no attribute 'encode'
+2020-10-02 06:38:36 INFO-192.168.240.1 [02/Oct/2020:06:38:35 +0000] "POST /v1/createItem HTTP/1.1" 500 330 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-10-02 06:38:44 INFO-
+        SELECT public_key, name, private_key FROM auth
+        WHERE name='thang1'
+        
+2020-10-02 06:38:44 INFO-None
+2020-10-02 06:38:44 ERROR-Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/aiohttp/web_protocol.py", line 376, in start
+    resp = await self._request_handler(request)
+  File "/usr/lib/python3/dist-packages/aiohttp/web_app.py", line 310, in _handle
+    resp = await handler(request)
+  File "/project/sawtooth-supply/rest_api/router_handler.py", line 63, in create_item
+    timestamp=get_time()
+  File "/project/sawtooth-supply/rest_api/messaging.py", line 62, in send_create_item_transaction
+    timestamp=timestamp
+  File "/project/sawtooth-supply/rest_api/transaction_creation.py", line 41, in make_create_item_transaction
+    item_address = addresser.get_item_address(item_id)
+  File "/project/sawtooth-supply/rest_api/addresser.py", line 42, in get_item_address
+    item_id.encode('utf-8')).hexdigest()[:62]
+AttributeError: 'NoneType' object has no attribute 'encode'
+2020-10-02 06:38:44 INFO-192.168.240.1 [02/Oct/2020:06:38:44 +0000] "POST /v1/createItem HTTP/1.1" 500 330 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-10-02 06:39:10 INFO-Connecting to tcp://validator:4004
+2020-10-02 06:39:10 INFO-Connecting to database
+2020-10-02 06:39:10 INFO-SELECT t.oid, typarray FROM pg_type t JOIN pg_namespace ns ON typnamespace = ns.oid WHERE typname = 'hstore';
+2020-10-02 06:39:10 INFO-None
+2020-10-02 06:39:10 INFO-Successfully connected to database
+2020-10-02 06:39:13 INFO-
+        SELECT public_key, name, private_key FROM auth
+        WHERE name='thang1'
+        
+2020-10-02 06:39:13 INFO-None
+2020-10-02 06:39:13 ERROR-Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/aiohttp/web_protocol.py", line 376, in start
+    resp = await self._request_handler(request)
+  File "/usr/lib/python3/dist-packages/aiohttp/web_app.py", line 310, in _handle
+    resp = await handler(request)
+  File "/project/sawtooth-supply/rest_api/router_handler.py", line 63, in create_item
+    timestamp=get_time()
+  File "/project/sawtooth-supply/rest_api/messaging.py", line 62, in send_create_item_transaction
+    timestamp=timestamp
+  File "/project/sawtooth-supply/rest_api/transaction_creation.py", line 41, in make_create_item_transaction
+    fprint('=== itemid: ', item_id)
+TypeError: fprint() takes 1 positional argument but 2 were given
+2020-10-02 06:39:13 INFO-192.168.240.1 [02/Oct/2020:06:39:13 +0000] "POST /v1/createItem HTTP/1.1" 500 330 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-10-02 06:39:39 INFO-Connecting to tcp://validator:4004
+2020-10-02 06:39:39 INFO-Connecting to database
+2020-10-02 06:39:39 INFO-SELECT t.oid, typarray FROM pg_type t JOIN pg_namespace ns ON typnamespace = ns.oid WHERE typname = 'hstore';
+2020-10-02 06:39:39 INFO-None
+2020-10-02 06:39:39 INFO-Successfully connected to database
+2020-10-02 06:39:48 INFO-
+        SELECT public_key, name, private_key FROM auth
+        WHERE name='thang1'
+        
+2020-10-02 06:39:48 INFO-None
+2020-10-02 06:39:48 ERROR-Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/aiohttp/web_protocol.py", line 376, in start
+    resp = await self._request_handler(request)
+  File "/usr/lib/python3/dist-packages/aiohttp/web_app.py", line 310, in _handle
+    resp = await handler(request)
+  File "/project/sawtooth-supply/rest_api/router_handler.py", line 63, in create_item
+    timestamp=get_time()
+  File "/project/sawtooth-supply/rest_api/messaging.py", line 62, in send_create_item_transaction
+    timestamp=timestamp
+  File "/project/sawtooth-supply/rest_api/transaction_creation.py", line 42, in make_create_item_transaction
+    item_address = addresser.get_item_address(item_id)
+  File "/project/sawtooth-supply/rest_api/addresser.py", line 42, in get_item_address
+    item_id.encode('utf-8')).hexdigest()[:62]
+AttributeError: 'NoneType' object has no attribute 'encode'
+2020-10-02 06:39:48 INFO-192.168.240.1 [02/Oct/2020:06:39:48 +0000] "POST /v1/createItem HTTP/1.1" 500 330 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-10-02 06:40:11 INFO-
+        SELECT public_key, name, private_key FROM auth
+        WHERE name='thang1'
+        
+2020-10-02 06:40:11 INFO-None
+2020-10-02 06:40:11 INFO-192.168.240.1 [02/Oct/2020:06:40:11 +0000] "POST /v1/createItem HTTP/1.1" 200 206 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-10-02 06:40:24 INFO-
+        SELECT public_key, name, private_key FROM auth
+        WHERE name='thang1'
+        
+2020-10-02 06:40:24 INFO-None
+2020-10-02 06:40:25 INFO-192.168.240.1 [02/Oct/2020:06:40:24 +0000] "POST /v1/updateItem HTTP/1.1" 200 202 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+2020-10-02 06:46:50 INFO-Connecting to tcp://validator:4004
+2020-10-02 06:46:50 INFO-Connecting to database
+2020-10-02 06:46:50 INFO-SELECT t.oid, typarray FROM pg_type t JOIN pg_namespace ns ON typnamespace = ns.oid WHERE typname = 'hstore';
+2020-10-02 06:46:50 INFO-None
+2020-10-02 06:46:50 INFO-Successfully connected to database
+2020-10-02 06:47:18 INFO-
+        INSERT INTO auth (
+            public_key,
+            private_key,
+            name
+        )
+        VALUES ('0351c39a5b554352c80bbbe2f65582df93013a336cddfe8dd20014817e12df3cd6', '524246fbf1823feea7a04ffcd6d5932ddcb5c956409baeb01306c7fa901e5f01', 'thang2');
+        
+2020-10-02 06:47:18 INFO-None
+2020-10-02 06:47:18 INFO-192.168.240.1 [02/Oct/2020:06:47:18 +0000] "POST /v1/signup HTTP/1.1" 200 444 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
