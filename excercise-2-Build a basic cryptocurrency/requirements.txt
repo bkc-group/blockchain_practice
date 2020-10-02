@@ -1,0 +1,6 @@
+Flask~=1.1
+requests~=2.22
+Flask-MQTT==1.1.1
+starkbank-ecdsa==1.1.0
+ecdsa==0.16.0
+requests==2.24.0
